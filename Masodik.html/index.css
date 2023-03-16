@@ -1,0 +1,55 @@
+.kulsodoboz {
+    display:grid;
+    grid-template-columns: auto auto;
+    font-size: 30px;
+    gap: 10px;
+    text-align: center;
+}
+.belsodoboz{
+    color: rgb(253, 253, 253);
+    background-color: blue;
+    border: 2px solid black;
+    
+    
+}
+.menuelem1{grid-area: TeahazKft;}
+.menuelem2{grid-area: Menu;}
+.menuelem3{grid-area: Bejelentkezes;}
+.menuelem4{grid-area: Regisztracio;}
+.menuelem5{grid-area: Rendeles;}
+.menuelem6{grid-area: Termekek;}
+.menuelem7{grid-area: Kosar;}
+
+.teahaz{
+    display: grid;
+    grid-template-areas:
+    "TeahazKft Regisztracio Regisztracio Bejelentkezes Bejelentkezes Kosar"
+    "Menu Menu Termekek Rendeles Rendeles Kosar"
+    "Menu Menu Termekek Rendeles Rendeles Kosar";
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(47, 5, 87); 
+}
+.teahaz > div {
+    background-color: rgba(153, 9, 9, 0.8);
+    text-align: center;
+    padding: 10px;
+    font-size: 27px;
+}
+.madar{padding: 20px;
+gap:10px;
+display: flexbox;
+text-shadow: 2px solid purple;}
+
+a:link,a:visited{
+    padding: 30px 100px;
+    text-align: center;
+    background-color: rgb(88, 18, 153,0.6);
+    text-decoration:underline;
+    color: white;
+    display: inline-block;
+}
+a:hover, a:active{
+background-color: purple;
+text-decoration: none;
+}
