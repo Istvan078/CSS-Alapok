@@ -1,0 +1,141 @@
+.container{
+    position:relative;
+    text-align: left;
+    color: rgb(236, 179, 179);
+    font-size:x-large;
+    padding-bottom: 30px;
+    
+}
+.kepSzoveg{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    }
+.container2{
+    text-align: left;
+    color: black;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    align-self: right;
+    padding-bottom: 30px;
+    
+
+    }
+    .kepek{
+        float: left;
+       
+    }
+h2,h3, p{
+    
+    margin-left:770px;
+    
+}
+.container3{
+    margin-right: 600px;
+    background-image: url(https://www.zooplus.hu/magazin/wp-content/uploads/2017/03/gl%C3%BCcklich-golden-retriever-welpe-1024x682.jpg);
+    background-position: 30%;
+    background-size: cover;
+
+}
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color:white;
+    background-color: rgba(29, 7, 107, 0.4);
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size:20px;
+    position: sticky;
+    bottom: 0;
+    
+}
+.urlap{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    display: grid;
+    font-size: larger;
+}
+#hatterkep{
+    background-image: url(https://www.zooplus.hu/magazin/wp-content/uploads/2020/03/Pireneusi-hegyikutya.jpg);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.menu{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    position:sticky;
+    gap: 20px;
+    top: 0;
+    
+    background-color: rgba(29, 7, 107, 0.4);
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.egy{
+    border: 2px solid black;
+    text-shadow: 20px 20px rgb(99, 15, 15)
+    
+}
+button{
+    background-color: rgb(68, 8, 117,0.6);
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(59, 221, 38,0.4);
+}
+@media screen and (max-width:1920px) {
+    h2, h3, p{font-size: 27px; margin-left: 587px;}
+    img{
+        width: 560px;
+        height: 600px;
+    }
+    .container3{
+        margin-right: 450px;
+    }
+
+}
+@media screen and (max-width:1100px) {
+    h2, h3, p{font-size: 21px; margin-left: 493px;}
+    img{
+        width: 473px;
+        height: 504px;
+    }
+    .container3{
+        margin-right: 431px;
+    }
+}
+@media screen and (max-width:900px) {
+     h2, h3, p{font-size: 14px; margin-left: 351px;}
+    img{
+        width: 328px;
+        height: 378px;
+    }
+    .container3{
+        margin-right: 265px;
+    }
+}
+@media screen and (max-width: 600px) {
+    h2,h3,p{font-size: 12px; margin-left: 283px;}
+   img{
+    width: 270px;
+    height: 286px;
+}
+.container3{
+    margin-right: 237px;
+}
+.footer{font-size: 17px;}
+}
